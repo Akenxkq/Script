@@ -59,7 +59,7 @@ message = ""
     return;
   }
   if ($.isNode()) {
-    if (!process.env.guaopencard8 || process.env.guaopencard8 == "false") {
+    if (!process.env.guaopencard8 || process.env.guaopencard8 == "true") {
       console.log('如需执行脚本请设置环境变量[guaopencard8]为"true"')
       return
     }
