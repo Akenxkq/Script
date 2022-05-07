@@ -1,8 +1,3 @@
 proxies:
   - {name: 网易音乐节点1, server: MUSIC.DESPERADOJ.COM, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
   - {name: 网易音乐节点2, server: MUSIC.DESPERADOJ.COM, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-http=music.lolico.me:39000, fast-open=false, udp-relay=false, tag=Music 1
-
-http=MUSIC.GRIOUGES.CN:39000, over-tls=false, fast-open=false, udp-relay=false, tag=Music 2
-
-http=SALVAN.ICU:19980, over-tls=false, fast-open=false, udp-relay=false, tag=Music 3
