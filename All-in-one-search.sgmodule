@@ -1,0 +1,143 @@
+#!name= All-In-One-Search
+#!desc= 全能搜索 DuckDuckGo 把浏览器搜索引擎设置成 DuckDuckGo 即可
+
+# 从网上选择和自己添加的一些 
+
+# https://t.me/Azxosd
+
+# quantumult x 开启解析器使用
+
+[URL Rewrite]
+
+# > 功能 工具
+
+# fy: 翻译
+^https:\/\/duckduckgo.com\/\?q=fy&.+ https://www.deepl.com/translator-mobile 302
+
+# ip: ip
+^https:\/\/duckduckgo.com\/\?q=ip&.+ https://ip.skk.moe/ 302
+
+# cs: 8度测速
+^https:\/\/duckduckgo.com\/\?q=cs&.+ https://badukeji.speedtestcustom.com/ 302
+
+# wzip: 伪装ip
+^https:\/\/duckduckgo.com\/\?q=wzip&.+ https://whoer.net/zh 302
+
+# gjsx: 国家缩写
+^https:\/\/duckduckgo.com\/\?q=gjsx&.+ https://yumingsuoxie.bmcx.com/ 302
+
+# qhdq: 切换地区
+^https:\/\/duckduckgo.com\/\?q=qhdq&.+ https://www.liangjianghu.com/searchads-appstore-switch# 302
+
+# tf: TestFlight
+^https:\/\/duckduckgo.com\/\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&as_sitesearch=testflight.apple.com 302
+
+# > 生活 知识
+
+# jd: 京东
+^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ https://so.m.jd.com/ware/search.action?keyword=$1 302
+
+# tb: 淘宝
+^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ https://s.m.taobao.com/h5?q=$1 302
+
+# tm: 天猫
+^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ https://s.m.tmall.com/m/search.htm?q=$1 302
+
+# ymx: 亚马逊
+^https:\/\/duckduckgo.com\/\?q=ymx\+([^&]+).+ https://www.amazon.cn/s?k=$1 302
+
+# zdm: 什么值得买
+^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ https://search.m.smzdm.com/?v=b&s=$1 302
+
+# albb: 阿里巴巴
+^https:\/\/duckduckgo.com\/\?q=albb\+([^&]+).+ https://m.1688.com/offer_search/-6D7033.html?keywords=$1 302
+
+# wjbk: 维基百科
+^https:\/\/duckduckgo.com\/\?q=wjbk(\+|%20)([^&]+).+ http://wikipedia.org/wiki/$2 302
+
+# wjbkzw: 维基中文
+^https:\/\/duckduckgo.com\/\?q=wjbkzw(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
+
+# > 社区 娱乐
+
+# gh: GitHub
+^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
+
+# db：豆瓣
+^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search/?query=$1 302
+
+# zh: 知乎
+^https:\/\/duckduckgo.com\/\?q=zh\+([^&]+).+ https://www.zhihu.com/search?status=suggest&type=content&q=$1 302
+
+# wb: 微博
+^https:\/\/duckduckgo.com\/\?q=wb\+([^&]+).+ https://s.weibo.com/weibo/$1 302
+
+# wx: 微信
+^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ https://weixin.sogou.com/weixinwap?query=$1 302
+
+# rd: Reddit
+^https:\/\/duckduckgo.com\/\?q=rd\+([^&]+).+ https://www.reddit.com/search?q=$1 302
+
+# tw: Twitter
+^https:\/\/duckduckgo.com\/\?q=tw\+([^&]+).+ https://twitter.com/search?q=$1 302
+
+# ssp: 少数派
+^https:\/\/duckduckgo.com\/\?q=ssp\+([^&]+).+ https://sspai.com/search/post/$1 302
+
+# csdn: CSDN
+^https:\/\/duckduckgo.com\/\?q=csdn\+([^&]+).+ https://so.csdn.net/so/search/s.do?q=$1&t=&u= 302
+
+# tbjb: 贴吧进吧
+^https:\/\/duckduckgo.com\/\?q=tbjb\+([^&]+).+ https://tieba.baidu.com/f?kw=$1 302
+
+# tbqb: 贴吧全吧
+^https:\/\/duckduckgo.com\/\?q=tbqb\+([^&]+).+ https://tieba.baidu.com/f/search/res?qw=$1 302
+
+# > 视频 音乐 图片
+
+# yk: 优酷
+^https:\/\/duckduckgo.com\/\?q=yk\+([^&]+).+ https://search.youku.com/search_video?keyword=$1 302
+
+# ph (PornHub)
+^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
+
+# dyg: 电影狗 电影搜索
+^https:\/\/duckduckgo.com\/\?q=dyg\+([^&]+).+ https://www.dianyinggou.com/so/$1 302
+
+# ytb (YouTube)
+^https:\/\/duckduckgo.com\/\?q=ytb\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
+
+# aqy: 爱奇艺
+^https:\/\/duckduckgo.com\/\?q=aqy\+([^&]+).+ https://m.iqiyi.com/search.html?source=input&key=$1 302
+
+# txsp: 腾讯视频
+^https:\/\/duckduckgo.com\/\?q=txsp\+([^&]+).+ https://m.v.qq.com/search.html?act=0&keyWord=$1 302
+
+# blbl: 哔哩哔哩
+^https:\/\/duckduckgo.com\/\?q=blbl\+([^&]+).+ https://m.bilibili.com/search?keyword=$1 302
+
+# cctv (cctv目录)
+^https:\/\/duckduckgo.com\/\?q=cctv&.+ https://tv.cctv.com/lm/m/index.shtml?spm=C28340.PImrkkn9UZ9h.EBXZIVMT3VYa.5 302
+
+# cctvss (cctv搜索)
+^https:\/\/duckduckgo.com\/\?q=cctvss\+([^&]+).+ https://search.cctv.com/m/search.php?qtext=$1 302
+
+# > 搜索引擎
+
+# ec: Ecosia
+^https:\/\/duckduckgo.com\/\?q=ec\+([^&]+).+ https://www.ecosia.org/search?q=$1 302
+
+# by: 必应
+^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ https://cn.bing.com/search?q=$1 302
+
+# bd: 百度
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?word=$1 302
+
+# ddg: DuckDuckGo 
+^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
+
+# 无指令: google
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+
+[MITM]
+hostname = %INSERT%, duckduckgo.com
