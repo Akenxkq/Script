@@ -58,6 +58,9 @@
 # wjbkzw: 维基中文
 ^https:\/\/duckduckgo.com\/\?q=wjbkzw(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
+# yd: 有道
+^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ https://dict.youdao.com/search?q=$1 302
+
 # > 社区 娱乐
 
 # gh: GitHub
