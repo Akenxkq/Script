@@ -1,7 +1,3 @@
 proxies:
   - {name: 网易音乐节点1, server: MUSIC.DESPERADOJ.COM, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
   - {name: 网易音乐节点2, server: MUSIC.DESPERADOJ.COM, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-http=aimer.one:23333, fast-open=false, udp-relay=false,tag=𝐌𝐮𝐬𝐢𝐜0
-http=101.132.79.113:23333, fast-open=false, udp-relay=false,tag=𝐌𝐮𝐬𝐢𝐜1
-http=taron.top:100, tag=𝐌𝐮𝐬𝐢𝐜3
-http=music.griouges.cn:39000, tag=𝐌𝐮𝐬𝐢𝐜4
