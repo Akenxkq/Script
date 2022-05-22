@@ -1,4 +1,10 @@
 proxies:
   - {name: 网易音乐节点1, server: MUSIC.DESPERADOJ.COM, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
   - {name: 网易音乐节点2, server: MUSIC.DESPERADOJ.COM, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 网易音乐节点3, server: music.lolico.me, port: 39000, type: http, over-tls: false, fast-open: false, urp-reply: false} 
+  - {name: 网易音乐节点3, server: music.lolico.me, port: 39000, type: http, over-tls: false, fast-open: false, urp-reply: false}
+  - {name: 网易音乐节点4, server: LOLICO.ME, port: 443, type: http, tls: false, skip-cert-verify: false}
+  - {name: 网易音乐节点5, server: SALVAN.ICU, port: 19980, type: http, tls: false, skip-cert-verify: false}
+  - {name: 网易音乐节点6, server: 106.52.127.72, port: 19951, type: http, tls: false, skip-cert-verify: false}
+  - {name: 网易音乐节点7, server: 101.132.79.113, port: 23333, type: http, tls: false, skip-cert-verify: false}
+  - {name: 网易音乐节点8, server: MUSIC.LOLICO.ME, port: 39000, type: http, tls: false, skip-cert-verify: false}
+  - {name: 网易音乐节点9, server: MUSIC.GRIOUGES.CN, port: 39000, type: http, tls: false, skip-cert-verify: false}
