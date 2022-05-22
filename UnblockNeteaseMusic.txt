@@ -4,4 +4,4 @@ proxies:
 http=aimer.one:23333, fast-open=false, udp-relay=false,tag=𝐌𝐮𝐬𝐢𝐜0
 http=101.132.79.113:23333, fast-open=false, udp-relay=false,tag=𝐌𝐮𝐬𝐢𝐜1
 http=taron.top:100, tag=𝐌𝐮𝐬𝐢𝐜3
-http=music.griouges.cn:39000, tag=🎧𝐌𝐮𝐬𝐢𝐜4
+http=music.griouges.cn:39000, tag=𝐌𝐮𝐬𝐢𝐜4
